@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fieldset {
+  display: flex;
+  gap: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.fullSize {
+  width: 100%;
+}
+
+.second__fird {
+  flex: 2;
+}

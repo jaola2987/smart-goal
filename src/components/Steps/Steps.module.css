@@ -1,0 +1,43 @@
+.parent {
+  display: inline-block;
+  width: 100%;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: inline-flex;
+  -webkit-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  align-items: flex-end;
+  padding: 77px 0px;
+}
+.element {
+  position: relative;
+  min-height: 0px;
+  vertical-align: bottom;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  margin-right: -1px;
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--light-color);
+  color: var(--primary-color);
+  padding: 15px;
+}
+
+.your_element:before {
+  content: "You";
+  position: absolute;
+  top: -35px;
+  color: var(--highlight-color);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.finishedStep {
+  background-color: var(--neutral-color);
+}

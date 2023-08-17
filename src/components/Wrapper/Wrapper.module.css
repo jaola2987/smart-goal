@@ -1,0 +1,22 @@
+.white_theme {
+  background: linear-gradient(
+    60deg,
+    var(--secondary-color) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+  color: var(--primary-color);
+}
+
+.black_theme {
+  background: linear-gradient(
+    60deg,
+    var(--primary-color) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+  color: var(--secondary-color);
+}
+
+.wrapper {
+  padding: 44px 54px;
+  min-height: 100vh;
+}

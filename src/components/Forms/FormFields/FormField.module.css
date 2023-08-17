@@ -1,0 +1,33 @@
+.wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.inputField {
+  min-height: 45px;
+  padding: 10px 10px;
+  border-radius: 8px;
+  background: var(--secondary-color);
+  outline: none;
+  border: 1px solid var(--primary-color);
+}
+
+.inputField::-webkit-inner-spin-button {
+  display: none;
+}
+
+.inputField:hover {
+  border-color: var(--dark-color);
+}
+
+.inputField:focus,
+.inputField:active {
+  border-color: var(--primary-color);
+}
+
+.checkboxField {
+  height: 25px;
+  width: 25px;
+}

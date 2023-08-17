@@ -1,0 +1,5 @@
+.columnBox {
+  display: flex;
+  align-items: end;
+  gap: 100px;
+}

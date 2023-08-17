@@ -1,0 +1,40 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.selected {
+  color: var(--neutral-color);
+  min-width: 180px;
+  display: flex;
+  text-decoration: underline;
+  text-transform: lowercase;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.popUp {
+  position: absolute;
+  top: 30px;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 4px 4px 4px #8f8c8c;
+  border-radius: 8px;
+  color: var(--primary-color);
+}
+
+.arrow {
+  margin: 0px 5px;
+}
+
+.arrow svg {
+  width: 20px;
+}
+
+.text {
+  display: flex;
+}

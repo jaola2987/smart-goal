@@ -1,0 +1,17 @@
+.wrapper {
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.section_title {
+  font-size: 45px;
+  text-align: center;
+}
+
+.sortAndFilterWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

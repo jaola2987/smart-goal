@@ -1,0 +1,49 @@
+.button {
+  font-family: Nunito, sans-serif;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 4px 4px 4px #8f8c8c;
+}
+
+.button:disabled {
+  background-color: #e0e0e0;
+  border-color: #e0e0e0;
+  color: #898989;
+}
+
+.lightButton {
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
+}
+
+.lightButton:focus-visible {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.lightButton:hover {
+  background-color: var(--dark-color);
+  color: var(--secondary-color);
+}
+
+.lightButton:active:not(:disabled),
+.darkButton:active:not(:disabled) {
+  transform: translate(1px, 1px);
+}
+
+.darkButton {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.darkButton:focus-visible {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+.darkButton:hover {
+  background-color: var(--light-color);
+  color: var(--secondary-color);
+}

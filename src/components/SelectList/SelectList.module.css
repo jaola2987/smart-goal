@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.listItem {
+  display: flex;
+  border-bottom: 2px solid #e3dfdf;
+  text-transform: lowercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  color: var(--highlight-color);
+}
+
+.arrow {
+  margin: 0px 5px;
+}
+
+.arrow svg {
+  width: 20px;
+}

@@ -1,0 +1,21 @@
+.head_grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 8fr 1fr 1fr;
+  gap: 15px;
+  font-size: 20px;
+  padding: 10px 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  margin: 15px 0px;
+}
+
+.body_grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 8fr 2fr;
+  gap: 15px;
+  padding: 10px 0px;
+}
+
+.disabled_text {
+  color: var(--disabled-color);
+}
